@@ -1,6 +1,6 @@
 ## Estudo de caso Docker Compose
 
-Estudo de caso: Mysql
+Estudo de caso: MySQL 8.0 e phpMyAdmin
 
 Script:
 
@@ -16,6 +16,10 @@ Parar a estrutura:
 ```
 docker-compose down
 ```
+#### Dados de conexão para o phpMyAdmin
+- Server: mysql-docker
+- Usuário: root / user
+- Senha: 1234567
 
 #### Dados de conexão para o MySQL Workbench
 - Host: 127.0.0.1
